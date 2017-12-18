@@ -1,0 +1,2 @@
+Icoontjes voor mailen, linkedin, etc op site.
+Contact formulier, die doorgestuurd wordt via PHP.

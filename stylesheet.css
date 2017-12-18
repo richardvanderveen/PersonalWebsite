@@ -1,0 +1,156 @@
+/* Wildcard die ervoor zorgt dat de body geen randje heeft*/
+*{
+  margin:0; padding:0;
+}
+/**********************************************************/
+/**********************************************************/
+body {
+ background-color: black; /*maakt kleur balkje tussen fotos */
+ overflow: hidden;
+
+}
+/**********************************************************/
+/**********************************************************/
+.header {
+  top:0;
+  position:fixed;
+    width: 100%;height: auto;background-color: grey;
+    font-family: sans-serif;
+    opacity: 0.7;
+    z-index: 100000;/*zorgt dat balk bovenop blijft *******/
+        }
+/**********************************************************/
+/************* beeldvullend van achtergrond plaatje ******/
+#wrapper {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+/**********************************************************/
+/**********************************************************/
+.panels {
+    position:relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+}
+/************* font kleur contact-formulier ***************/
+form {
+  color: white;
+}
+/**********************************************************/
+#cornerbox {
+  border-radius: 25px;
+  background: url("./plaatjes/cornerbox_background.jpg");
+  /*background-color: #444444;*/
+  background-position: center;
+  background-repeat: repeat;
+  padding: 10px;
+  width: 500px;
+  height: 150px;
+  margin:auto;
+  position: relative;
+  top: 140px;
+  font-family: sans-serif;font-size: 20px;
+  height: 10em;
+/* centers text in box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 5px #000000;opacity: 1.0;
+
+}
+
+/**********************************************************/
+/****************** Plaatje beginscherm *******************/
+#ga01
+{
+    background-image: url("./plaatjes/black_toetsenbord.jpeg");
+    /*width: 100%; height : 600px;*/
+    background-size: cover;
+    /*position:fixed;*/
+    color:red;
+    top:0;
+}
+/******************** Plaatje over mij ********************/
+#ga02
+{
+   /*margin-top:5%;/*Ruimte tussen fotos*/
+   background-image: url("./plaatjes/emmen.jpg");
+   /*width: 100%; height : 50px;*/
+   background-size: cover;
+}
+/************** Laat plaatje van zomer zien ***************/
+#ga03
+{
+  margin-top:0%;/*Ruimte tussen fotos*/
+  background-image: url("./plaatjes/port2_background.jpg");
+  /*width: 100%; height : 50px;*/
+  background-size: cover;
+}
+/************** Laat plaatje van herfst zien **************/
+#ga04
+{
+  margin-top:0%;/*Ruimte tussen fotos*/
+  background-image: url("./plaatjes/cv.jpg");
+  /*width: 100%; height : 50px;*/
+  background-size: cover;
+}
+/************** Laat plaatje van winter zien **************/
+#ga05
+{
+    margin-top:0%;/*Ruimte tussen fotos*/
+    background-image: url("./plaatjes/hobby.jpg");
+    /*width: 100%; height : 600px;*/
+    background-size: cover;
+}
+#ga06
+{
+    margin-top:0%;/*Ruimte tussen fotos*/
+    background-image: url("./plaatjes/horizon.jpeg");
+    /*width: 100%; height : 600px;*/
+    background-size: cover;
+}
+#dia
+{background-image: url("./plaatjes/dia.jpg");
+width: 100%; height : 142px;
+
+}
+/*************** Navigatie bar configuratie ***************/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    }
+/**********************************************************/
+li {
+    float:left;
+     width:auto;
+    }
+/**********************************************************/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+/*********** kleur en vorm van selectie menu items ********/
+li a:hover {
+    border-radius: 25px;
+    background-color: darkgrey;
+    width:auto; height: auto;
+           }
+/**********************************************************/
+p {
+    display: block;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
